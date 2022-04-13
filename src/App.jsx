@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import SignIn from "./SignIn";
 import { DeviceDetail } from "./DeviceDetail";
+import { IconListComp } from "./IconListComp";
 
 function Copyright() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
   return (
     <Container maxWidth="sm">
       {/* <SignIn /> */}
-      <DeviceDetail />
+      {/* <DeviceDetail /> */}
+      <IconListComp />
     </Container>
   );
 }
