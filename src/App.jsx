@@ -3,6 +3,7 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import SignIn from "./SignIn";
+import { DeviceDetail } from "./DeviceDetail";
 
 function Copyright() {
   return (
@@ -19,7 +20,8 @@ function Copyright() {
 export default function App() {
   return (
     <Container maxWidth="sm">
-      <SignIn />
+      {/* <SignIn /> */}
+      <DeviceDetail />
     </Container>
   );
 }
